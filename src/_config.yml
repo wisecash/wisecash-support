@@ -1,0 +1,11 @@
+name: WiseCash Help
+permalink: /:title
+bloghost: "https://help.wisecashhq.com"
+gems: ['jekyll-assets']
+defaults:
+  -
+    scope:
+      path: "" # for all files
+    values:
+      layout: 'page'
+      is_page: true
