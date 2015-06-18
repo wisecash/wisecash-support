@@ -1,4 +1,5 @@
 $navbarBackground: #0088cc;
+$sepColor: #f5f5f5;
 
 body {
   font-family: "franklin-gothic-urw", sans-serif;
@@ -6,18 +7,38 @@ body {
 
 .main {
   padding: 30px 50px;
+  margin-top: 1.5em;
 }
 
 .toc {
   list-style-type: none;
 }
 
-.toc.sections .section {
-  text-transform: uppercase;
-  color: #aaa;
-  font-size: 12px;
-  padding-bottom: 0.5em;
-  display: inline-block;
+.toc.sections {
+  padding-left: 0;
+  .section {
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 13px;
+    padding-bottom: 0.5em;
+    display: inline-block;
+  }
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid $sepColor;
+  margin-bottom: 0.8em;
+  font-weight: 400;
+  font-family: "abril-display", serif;
+  font-size: 32px;
+}
+
+.content {
+  border-left: 1px solid $sepColor;
+  padding-left: 3em;
 }
 
 .toc.pages {
@@ -30,6 +51,7 @@ body {
     font-size: 14px;
     color: #555;
     text-decoration: none;
+    font-weight: 100;
   }
   a.active {
     color: #222;

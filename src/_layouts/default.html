@@ -17,8 +17,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- TODO: add RSS -->
-    <!-- TODO: add google analytics -->
     {% stylesheet site %}
     {% include typekit.html %}
   </head>
@@ -27,11 +25,13 @@
     <div class="main">
       <div class="container">
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-sm-2 col-sm-offset-1">
             {% include toc.html %}
           </div>
-          <div class="col-sm-9">
-            {{ content }}
+          <div class="col-sm-8">
+            <div class="content">
+              {{ content }}
+            </div>
           </div>
         </div>
       </div>
