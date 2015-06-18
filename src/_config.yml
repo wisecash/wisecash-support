@@ -5,7 +5,6 @@ gems: ['jekyll-assets']
 defaults:
   -
     scope:
-      path: "" # for all files
+      path: "" # an empty string here means all files in the project
     values:
-      layout: 'page'
-      is_page: true
+      layout: "default"
