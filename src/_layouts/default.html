@@ -27,10 +27,23 @@
     <div class="main">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <p>Les colonnes</p>
+          <div class="col-sm-3">
+            <ul>
+              {% for category in site.categories %}
+              <li>
+                {{ category | first }}
+                <ul>
+                  {% for p in category[1] %}
+                  <li>
+                    <a href="{{ p.url }}">{{ p.title }}</a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </li>
+              {% endfor %}
+            </ul>
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-9">
             {{ content }}
           </div>
         </div>
