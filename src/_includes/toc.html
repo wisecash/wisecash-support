@@ -4,9 +4,9 @@
     <span class='section'>{{ section.name }}</span>
     <ul class="toc pages">
       {% assign pages = (site.posts | where: 'section', section.name | sort: 'index') %}
-      {% for page in pages %}
+      {% for p in pages %}
       <li>
-        <a href="{{ page.url }}">{{ page.title }}</a>
+        <a {% if page.url == p.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
       </li>
       {% endfor %}
     </ul>

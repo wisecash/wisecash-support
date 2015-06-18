@@ -53,8 +53,9 @@ h1 {
     text-decoration: none;
     font-weight: 100;
   }
-  a.active {
-    color: #222;
+  .active {
+    color: $navbarBackground;
+    font-weight: 400;
   }
 }
 
