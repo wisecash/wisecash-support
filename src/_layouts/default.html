@@ -28,21 +28,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <ul>
-              {% for section in site.data.sections %}
-              <li>
-                {{ section.name }}
-                <ul>
-                  {% assign pages = (site.posts | where: 'section', section.name | sort: 'index') %}
-                  {% for page in pages %}
-                  <li>
-                    <a href="{{ page.url }}">{{ page.title }}</a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </li>
-              {% endfor %}
-            </ul>
+            {% include toc.html %}
           </div>
           <div class="col-sm-9">
             {{ content }}

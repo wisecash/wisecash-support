@@ -1,0 +1,15 @@
+<ul class="toc sections">
+  {% for section in site.data.sections %}
+  <li>
+    <span class='section'>{{ section.name }}</span>
+    <ul class="toc pages">
+      {% assign pages = (site.posts | where: 'section', section.name | sort: 'index') %}
+      {% for page in pages %}
+      <li>
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>
