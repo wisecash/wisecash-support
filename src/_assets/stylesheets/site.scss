@@ -19,6 +19,11 @@ body {
 
 .toc {
   list-style-type: none;
+  .section {
+    width: 100%;
+    border-bottom: 1px solid $sepColor;
+    margin-bottom: 0.5em;
+  }
 }
 
 .toc.sections:hover a {
