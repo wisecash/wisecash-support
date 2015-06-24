@@ -16,4 +16,9 @@ Pour tracker séparément vos centres de profits, WiseCash vous permet d'associe
 
 {% include animation.html file="wiwrOQSsHL-account-edit-tags.gif" %}
 
+## 2/ Filtrez vos prévisionnels
+
+{% include animation.html file="9rB7SyVPpG-chart-filtering.gif" %}
+
+
 
