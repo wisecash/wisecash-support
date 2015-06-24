@@ -110,3 +110,6 @@ DEPENDENCIES
   json
   s3_website
   sass
+
+BUNDLED WITH
+   1.10.4
