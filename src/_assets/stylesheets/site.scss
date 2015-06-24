@@ -5,6 +5,13 @@ body {
   font-family: "franklin-gothic-urw", sans-serif;
 }
 
+.animation img {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  border-radius: 4px;
+}
+
 .main {
   padding: 30px 50px;
   margin-top: 1.5em;
@@ -12,6 +19,10 @@ body {
 
 .toc {
   list-style-type: none;
+}
+
+.toc.sections:hover a {
+  color: lighten($navbarBackground, 10%);
 }
 
 .toc.sections {
@@ -25,20 +36,34 @@ body {
   }
 }
 
+h1, h2 {
+  font-weight: 400;
+  font-family: "abril-display", serif;
+}
+
 h1 {
   margin-top: 0;
   padding-top: 0;
   padding-bottom: 0.4em;
   border-bottom: 1px solid $sepColor;
   margin-bottom: 0.8em;
-  font-weight: 400;
-  font-family: "abril-display", serif;
   font-size: 32px;
+}
+
+h2 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 22px;
 }
 
 .content {
   border-left: 1px solid $sepColor;
   padding-left: 3em;
+  p {
+    font-size: 18px;
+    line-height: 18*1.2727px;
+    font-weight: 100;
+  }
 }
 
 .toc.pages {
