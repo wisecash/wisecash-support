@@ -1,3 +1,4 @@
 <div class="animation">
-  {{ include.file | image }}
+  {% capture path %}{{ include.file | asset_path }}{% endcapture %}
+  <img src="{{ path }}" class="img-responsive"></img>
 </div>
