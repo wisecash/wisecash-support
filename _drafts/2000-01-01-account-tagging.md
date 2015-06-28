@@ -1,5 +1,5 @@
 ---
-title: Account Tagging (Profit Center Tracking)
+title: Account Tagging
 section: Advanced Use
 index: 0
 ---
