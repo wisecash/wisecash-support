@@ -1,8 +1,12 @@
-desc 'Cleanly rebuild the site and deploy it to S3'
-task :deploy do
-  system("rm -rf _site && jekyll build && s3_website push")
+def system!(cmd)
+  raise "Command #{cmd} failed" unless system(cmd)
+end
+
+task :build do
+  system!('rm -rf _site')
+  system!('bundle exec jekyll build')
 end
 
 task :serve do
-  system("jekyll serve --watch --drafts")
+  system!("bundle exec jekyll serve --watch --drafts")
 end
