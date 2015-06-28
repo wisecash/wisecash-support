@@ -3,6 +3,37 @@ $sepColor: #f5f5f5;
 
 body {
   font-family: "franklin-gothic-urw", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.content-wrapper {
+  background-color: #fff;
+  padding: 3em 3em;
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+}
+
+.main {
+  padding: 30px 50px;
+  margin-top: 1.5em;
+}
+
+@media (max-width: 767px) {
+  .main {
+    padding: 10px 25px;
+    margin-top: 0.5em;
+  }
+  body {
+    background-color: #fff;
+  }
+  .toc-wrapper {
+    padding-left: 0;
+  }
+  .content-wrapper {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
 }
 
 .animation img {
@@ -10,11 +41,6 @@ body {
   border: 1px solid #ddd;
   padding: 12px 10px;
   border-radius: 4px;
-}
-
-.main {
-  padding: 30px 50px;
-  margin-top: 1.5em;
 }
 
 .toc {
@@ -48,9 +74,7 @@ h1, h2 {
 h1 {
   margin-top: 0;
   padding-top: 0;
-  padding-bottom: 0.4em;
-  border-bottom: 1px solid $sepColor;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.75em;
   font-size: 32px;
 }
 
@@ -63,8 +87,6 @@ h2 {
 $bulletSize: 10px;
 
 .content {
-  border-left: 1px solid $sepColor;
-  padding-left: 3em;
   p, li {
     font-size: 18px;
     line-height: 18*1.2727px;
