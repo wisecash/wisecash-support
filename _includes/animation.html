@@ -1,4 +1,4 @@
 <div class="animation">
-  {% capture path %}{{ include.file | asset_path }}{% endcapture %}
-  <img src="{{ path }}" class="img-responsive"></img>
+  {% capture path %}{{ include.file }}{% endcapture %}
+  <img src="/assets/{{ path }}" class="img-responsive"></img>
 </div>

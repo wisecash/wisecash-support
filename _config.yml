@@ -1,7 +1,5 @@
 name: WiseCash Help
 permalink: /:title
-bloghost: "https://help.wisecashhq.com"
-gems: ['jekyll-assets']
 defaults:
   -
     scope:
