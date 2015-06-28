@@ -12,15 +12,10 @@ Cela permet par exemple d'évaluer les profits associés à une de ces activité
 
 Pour tracker séparément vos centres de profits, WiseCash vous permet d'associer des tags à chaque account (exemple: "our-saas-product"), puis de filtrer ensuite les différents graphiques à l'aide d'un de ces tags.
 
-<ol>
-
-<li>Taggez vos accounts</li>
+## Taggez vos accounts
 
 {% include animation.html file="wiwrOQSsHL-account-edit-tags.gif" %}
 
-<li>Filtrez vos prévisionnels</li>
-
+## Filtrez vos prévisionnels
 
 {% include animation.html file="9rB7SyVPpG-chart-filtering.gif" %}
-
-</ol>

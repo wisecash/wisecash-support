@@ -71,31 +71,28 @@ $bulletSize: 10px;
     line-height: 18*1.2727px;
     font-weight: 100;
   }
-  ol {
-    margin: 0;
+  counter-reset: h2;
+  h2 {
+    margin: 1em 0em 1em -0.5em;
     padding: 0;
-    counter-reset: li;
-    li {
-      margin: 1em 0em 1em -0.5em;
-      padding: 0;
-      list-style: none;
-      font-weight: bold;
-      font-size: 20px;
-    }
-    li:before {
-      background: $navbarBackground;
-      content: counter(li);
-      counter-increment: li;
-      color: #fff;
-      font-size: $bulletSize * 1.5;
-      font-weight: bold;
-      width: $bulletSize * 2;
-      line-height: $bulletSize * 2;
-      border-radius: $bulletSize;
-      display: inline-block;
-      text-align: center;
-      margin-right: 0.5em;
-    }
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h2:before {
+    background: $navbarBackground;
+    content: counter(h2);
+    counter-increment: h2;
+    color: #fff;
+    font-size: $bulletSize * 1.5;
+    font-weight: bold;
+    width: $bulletSize * 2;
+    line-height: $bulletSize * 2;
+    border-radius: $bulletSize;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0.5em;
+    vertical-align: bottom;
   }
 }
 
