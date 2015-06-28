@@ -1,21 +1,33 @@
 ---
-title: Account Tagging
+title: Account Tags
 section: Advanced Use
 index: 0
 ---
 
-{% include warning_addon.html %}
+In their current form, account tags are only useful to achieve **Profit Center Forecasting**. What is that, you may ask?
 
-Si votre entreprise dispose d'un seul compte bancaire où s'aggrège les transactions de plusieurs activités différentes (exemple: du consulting d'un côté et un produit SaaS de l'autre), il peut-être intéressant de pouvoir analyser ensemble les entrées et sorties d'une de ces activités.
+Imagine your business has multiple sub-activities (e.g. consulting + one SaaS product), all using your main business bank account for both expenses and income transactions. In such a setup, it can be challenging to evaluate the profitability or runway of each of these sub-activities.
 
-Cela permet par exemple d'évaluer les profits associés à une de ces activités.
+If you apply one tag to all the accounts related to a given sub-activity, you will be able to filter all the charts provided by WiseCash to only keep the related transactions. Here's exactly how to do that:
 
-Pour tracker séparément vos centres de profits, WiseCash vous permet d'associer des tags à chaque account (exemple: "our-saas-product"), puis de filtrer ensuite les différents graphiques à l'aide d'un de ces tags.
+## Enable the tagging add-on
 
-## Taggez vos accounts
+This feature is an add-on, so first make sure to enable it from your settings:
+
+## Tag your accounts
+
+Go to the account overview page then apply a given tag to all the accounts involved in the sub-activity you want to track:
 
 {% include animation.html file="wiwrOQSsHL-account-edit-tags.gif" %}
 
-## Filtrez vos prévisionnels
+## Review your accounts
+
+You can use the transactions listing to make sure the right set of transactions is properly tagged.
+
+Verify that only the right transactions have been tagged and that you didn't miss some.
+
+## Visualize your Profit Center Forecast
+
+From there, you can filter all the charts with your new tag. This will only keep the transactions which have been tagged, allowing you to verify the profitability or the runway of your sub-activity:
 
 {% include animation.html file="9rB7SyVPpG-chart-filtering.gif" %}
