@@ -42,8 +42,7 @@ body {
 }
 
 h1, h2 {
-  font-weight: 400;
-  font-family: "abril-display", serif;
+  font-weight: 700;
 }
 
 h1 {
@@ -114,15 +113,18 @@ $bulletSize: 10px;
   }
 }
 
+.wrapper {
+  background-color: #0088cc;
+  .our-row-mini {
+    height: 36px;
+  }
+}
+
 .our-header {
   p, li {
     font-size: 22px;
     line-height: 28px;
     font-weight: 100;
-  }
-  background-color: #0088cc;
-  .our-row-mini {
-    height: 36px;
   }
 }
 .navbar {
