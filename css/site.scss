@@ -54,17 +54,18 @@ body {
   }
 }
 
-.toc.sections:hover a {
-  color: lighten($navbarBackground, 10%);
+.toc.sections .pages li:hover a {
+  color: lighten($navbarBackground, 7%);
 }
 
 .toc.sections {
   padding-left: 0;
+  padding-bottom: 0;
   .section {
     text-transform: uppercase;
-    color: #ccc;
+    color: #aaa;
     font-size: 13px;
-    padding-bottom: 0.5em;
+    padding-bottom: 0em;
     display: inline-block;
   }
 }
@@ -123,6 +124,9 @@ $bulletSize: 10px;
   margin: 0;
   padding: 0;
   margin-bottom: 1em;
+  li {
+    line-height: 15px;
+  }
   a {
     display: block;
     margin: 0.25em 0em;
@@ -133,7 +137,6 @@ $bulletSize: 10px;
   }
   .active {
     color: $navbarBackground;
-    font-weight: 400;
   }
 }
 
