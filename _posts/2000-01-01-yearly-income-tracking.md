@@ -1,5 +1,5 @@
 ---
 title: Yearly Income Tracking
-section: Cash-Flow Forecast
+section: Forecasting Your Cash-Flow
 index: 1
 ---

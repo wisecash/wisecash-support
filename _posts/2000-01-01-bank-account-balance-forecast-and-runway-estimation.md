@@ -1,6 +1,6 @@
 ---
-title: Bank Account Balance Forecast &amp; Runway Estimation
-section: Cash-Flow Forecast
+title: Balance Forecast &amp; Runway Estimation
+section: Forecasting Your Cash-Flow
 index: 0
 ---
 

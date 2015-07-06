@@ -11,8 +11,8 @@ body {
 .content-wrapper {
   background-color: #fff;
   padding: 3em 3em;
-  border: 1px solid #d7d7d7;
-  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
 }
 
 .main {
@@ -50,16 +50,17 @@ body {
   .section {
     width: 100%;
     border-bottom: 1px solid $sepColor;
-    margin-bottom: 0.5em;
+    margin-top: 0.9em;
   }
 }
 
 .toc.sections .pages li:hover a {
-  color: lighten($navbarBackground, 7%);
+  color: #000;
 }
 
 .toc.sections .pages li a {
   padding-top: 0.25em;
+  padding-left: 0.3em;
 }
 
 .toc.sections {
@@ -69,6 +70,7 @@ body {
     text-transform: uppercase;
     color: #aaa;
     font-size: 13px;
+    line-height: 18px;
     padding-bottom: 0em;
     display: inline-block;
   }
@@ -140,7 +142,8 @@ $bulletSize: 10px;
     font-weight: 100;
   }
   .active {
-    color: $navbarBackground;
+    color: #000;
+    font-weight: bold;
   }
 }
 
