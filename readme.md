@@ -15,3 +15,4 @@ Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
 - [ ] Add link to GitHub repository.
 - [ ] Fix title casing.
 - [ ] Mention "rolling" forecast.
+- [ ] Style all mentions to buttons similarly.

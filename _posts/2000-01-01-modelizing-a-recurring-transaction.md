@@ -1,10 +1,10 @@
 ---
-title: Setting-up a Recurring Transaction
+title: Setting up a Recurring Transaction
 section: Working with Transactions
 index: 0
 ---
 
-WiseCash helps you modelize repeat transactions (salaries, subscriptions, etc.) without having to labor over a spreadsheet. Here is how to create one of those repeat transactions:
+WiseCash helps you modelize repeat transactions (salaries, subscriptions, etc.) without having to labor over a spreadsheet. Here is how to create a repeat transaction in your forecast:
 
 ## Go to the Account Overview page
 

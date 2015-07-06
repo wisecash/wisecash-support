@@ -14,8 +14,14 @@ While it can be done from other screens in WiseCash, editing the data from the A
 
 Click on the edit icon. The selected transaction should appear in blue and its data should be displayed in the entry form:
 
+TODO: screenshot
+
 ## Modify the Occurrence Information
 
-Change the required data.
+Change the required data then click on Save:
 
- then to save only that occurrence, click on Save:
+<div class='alert alert-info' role='alert'>
+  <i class="fa fa-warning"></i> Changing the due date will "detach" the occurrence from its series. This means that future updates to the series as a whole won't impact this occurrence anymore.
+</div>
+
+TODO: screenshot
