@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-section: Overview
+section: Misc
 index: 1
 auto_numbering: 0
 ---

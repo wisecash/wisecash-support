@@ -2,20 +2,16 @@ Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
 
 (c) LoGeek SARL 2015.
 
-## Possible outline
+## Todos
 
-* Introduction
-  *
-* Getting started
-  * What
-* Feeding your cash-flow forecast
-  * Working with WiseCash
-
-
-    * Modelizing a one-off transaction
-    * Working with accounts
-* Leveraging your data
-  * The burn-chart
-  * The yearly goal income tracker
-  * The monthly break-down
-  * The email reminder
+- [ ] Auto-update slugs based on titles.
+- [ ] Work on cross-linking.
+- [ ] Add a footer with company information.
+- [ ] Add screenshots and animations.
+- [ ] Add CTA for sign-up.
+- [ ] Link brand to home-page.
+- [ ] Link app to knowledge base.
+- [ ] Add link to KB index.
+- [ ] Add link to GitHub repository.
+- [ ] Fix title casing.
+- [ ] Mention "rolling" forecast.
