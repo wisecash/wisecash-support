@@ -1,5 +1,5 @@
 ---
-title: Account Tags
+title: Tagging &amp; Filtering
 section: Advanced Use
 index: 0
 ---
