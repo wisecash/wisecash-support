@@ -6,17 +6,19 @@ index: 0
 
 Once you have up-to-date data in WiseCash, you can get:
 
-* a day-by-day bank account balance projection for the upcoming year.
-* your estimated runway (**number of days your business can survive** given planned expenses and income).
-* your crash date, day when your bank account will reach zero.
+* A day-by-day bank account balance projection for the upcoming year.
+* Your estimated runway (**number of days your business can survive** given planned expenses and income).
+* Your crash date, day when your bank account will reach zero.
 
 TODO: screenshot
 
-Here is how to get such a projection done reliably for your business:
+Here are the steps to get that projection for your business:
 
-## Make sure to understand how the projection works
+## Understand how the projection works
 
-The forecast adds expected transactions (not yet marked as paid) over time, starting from the bank account balance you'll provide, in order to give you an estimate of your future bank account balance. Represented as a table, this would look like this:
+The forecast starts from the bank account balance you provide. It then adds up the transactions not yet marked as paid, over time, and charts the estimated future bank account balance.
+
+Represented as a table, this would look like this:
 
 {:.table.table-striped}
 |  Date     | Transaction        | Amount   | Status     |    Delta | Projected bank account balance |
@@ -26,14 +28,12 @@ The forecast adds expected transactions (not yet marked as paid) over time, star
 | in 3 days |  Client Invoice #2 |   $7,500 | already paid <input type="checkbox" checked="checked" disabled="disabled" />  |       $0 |                  $30,000 |
 | in 5 days |    Quarterly Taxes | -$9,000 | to be paid <input type="checkbox" disabled="disabled" /> | -$9,000 |                        $21,000 |
 
-So when you provide your current bank account balance, make sure to also mark as paid (by "checking" them in WiseCash) all the transactions who already occurred, otherwise you will double-count the related transactions and your forecast will be plain wrong.
-
-## Verify your cash-flow forecasting data is up-to-date
+## Update your cash-flow forecasting data
 
 Given what's written above:
 
 * Make sure to check your latest bank report in order to update your forecast data.
-* Mark as paid (into WiseCash) all transactions which occurred on your bank report.
+* Mark as paid (into WiseCash) all transactions which occurred on your bank report, to avoid double-counting.
 
 This way your forecast will be in sync with your bank account state.
 
@@ -46,3 +46,15 @@ TODO: screenshot
 ## Forecast your runway and bank account balance
 
 TODO: animation
+
+This forecasting has many uses, including:
+
+* Negotiating contracts.
+* Planning unbillable time.
+* Making strategic orientation decisions.
+* Anticipating withdrawal from bank accounts.
+* Backing-up a loan with your bank.
+* Doing a break-even analysis.
+* And many more.
+
+<a href="mailto:support@wisecashhq.com">Contact us</a> if you need any help to leverage this chart!
