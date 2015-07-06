@@ -58,6 +58,10 @@ body {
   color: lighten($navbarBackground, 7%);
 }
 
+.toc.sections .pages li a {
+  padding-top: 0.25em;
+}
+
 .toc.sections {
   padding-left: 0;
   padding-bottom: 0;
