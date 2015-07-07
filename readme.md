@@ -16,3 +16,4 @@ Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
 - [ ] Fix title casing.
 - [ ] Mention "rolling" forecast.
 - [ ] Style all mentions to buttons similarly.
+- [ ] Link to next and previous pages.
