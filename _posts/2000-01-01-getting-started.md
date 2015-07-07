@@ -6,10 +6,6 @@ index: 0
 
 WiseCash leverages the financial data you provide to forecast your business bank account balance and compute your runway. Here is a quick screencast showing you the basics:
 
-<div class='alert alert-info' role='alert'>
-  <i class="fa fa-warning"></i> This screencast is outdated &amp; doesn't cover all the available features today! Nonetheless it will show you the core principles.
-</div>
-
 <div style="margin-top: 1em; margin-bottom: 1em; padding: 1em;">
 <iframe src="//fast.wistia.net/embed/iframe/zz6rn5n4v7?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="770" height="514"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
 </div>
