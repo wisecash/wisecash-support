@@ -4,7 +4,7 @@ section: Forecasting Your Cash-Flow
 index: 1
 ---
 
-The yearly income tracker displays a running total of all the income-type transactions, starting from what you defined as the beginning of your fiscal year, including both paid and not yet paid income transactions.
+The yearly income tracker displays a running total of all your income transactions, starting from the day you defined as the beginning of your fiscal year, including both paid and not yet paid income transactions.
 
 This report is especially useful when negotiating new contracts.
 
