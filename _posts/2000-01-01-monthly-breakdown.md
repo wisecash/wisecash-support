@@ -3,3 +3,15 @@ title: Monthly Breakdown
 section: Forecasting Your Cash-Flow
 index: 2
 ---
+
+The monthly breakdown shows you, broken down by month, the total of profits, income and expenses.
+
+## Click on Forecasting
+
+TODO: screenshot
+
+## Click on Monthly-Breakdown
+
+TODO: screenshot
+
+If you have enabled the tagging add-on, you can achieve Profit Center Tracking here.
