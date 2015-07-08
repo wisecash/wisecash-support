@@ -1,5 +1,5 @@
 ---
-title: Balance Forecast &amp; Runway Estimation
+title: Balance Forecast & Runway Estimation
 section: Forecasting Your Cash-Flow
 index: 0
 ---

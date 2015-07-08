@@ -1,5 +1,5 @@
 ---
-title: Applying Tagging &amp; Filtering
+title: Applying Tagging & Filtering
 section: Advanced Use
 index: 0
 ---
