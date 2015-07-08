@@ -1,5 +1,5 @@
 ---
-title: Common Business Expenses &amp; Income
+title: Common Business Expenses & Income
 section: Misc
 index: 0
 ---
