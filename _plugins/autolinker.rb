@@ -3,16 +3,18 @@ module Autolinker
     site = @context.registers[:site]
     # at this point we have no more markdown but only html
     input.gsub(/\[([^\]]+)\]/) do |match|
-      tokens = match.split(',')
-      raise "Forbidden match #{match}" unless tokens.size == 1
-      title = tokens.first
-      slugified_title = Jekyll::Utils.slugify(title)
+      tokens = $1.split(',')
+      raise "Forbidden match #{match}" unless tokens.size.between?(1, 2)
+      target_post_title = tokens.pop
+      overriding_text = tokens.pop
+      slugified_target_post_title = Jekyll::Utils.slugify(target_post_title)
       target_post = site.posts.find do |p|
-        p.slug == slugified_title
+        p.slug == slugified_target_post_title
       end
       raise "No internal page match found for #{match}" unless target_post
+      anchor_text = overriding_text || target_post.title
       Jekyll.logger.info "Auto-linking to #{target_post.url}"
-      "<a href='#{target_post.url}'>#{target_post.title}</a>"
+      "<a href='#{target_post.url}'>#{anchor_text}</a>"
     end
   end
 end
