@@ -1,5 +1,7 @@
 # Use [Some Page] to automatically build a verified link to that page.
 # Use [Alt text,Some Page] to do the same but override the anchor text.
+#
+# Note: wrap your content with {{ content | autolink }} to enable this.
 module Autolinker
   def autolink(input)
     site = @context.registers[:site]
