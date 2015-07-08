@@ -184,3 +184,15 @@ $bulletSize: 10px;
     padding-left: 20px;
   }
 }
+
+.help {
+  h2 {
+    padding-top: 0.15em;
+    padding-bottom: 0.20em;
+    padding-left: 0.3em;
+    border-radius: 6px;
+  }
+  :target {
+     background-color: transparentize($navbarBackground, 0.85);
+  }
+}
