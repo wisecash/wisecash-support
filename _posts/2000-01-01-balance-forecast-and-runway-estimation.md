@@ -33,13 +33,13 @@ Represented as a table, this would look like this:
 Given what's written above:
 
 * Make sure to check your latest bank report in order to update your forecast data.
-* Mark as paid (into WiseCash) all transactions which occurred on your bank report, to avoid double-counting.
+* [Mark as paid,Marking Transactions as Paid] (into WiseCash) all transactions which occurred on your bank report, to avoid double-counting.
 
 This way your forecast will be in sync with your bank account state.
 
 ## Go to the burn-chart and provide your current bank account balance
 
-Click on the forecast icon, then click on edit to enter your bank account balance:
+Click on the **forecast icon**, then click on **edit** to enter your bank account balance:
 
 TODO: screenshot
 

@@ -24,11 +24,11 @@ TODO: update the settings screen and add screenshot.
 
 ## Tag your accounts
 
-To apply tags, go to the account overview page and click edit:
+To apply tags, go to the [Account Overview] page and click **edit**:
 
 TODO: screenshot edit
 
-Add your tag or reuse an existing one, then click save:
+Add your tag or reuse an existing one, then click **save**:
 
 TODO: screenshot
 

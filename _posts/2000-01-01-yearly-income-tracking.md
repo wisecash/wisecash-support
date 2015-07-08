@@ -22,7 +22,7 @@ TODO: screenshot
 
 ## Go to the Yearly Goal chart
 
-Click on Forecasting then on **Yearly Goal**.
+Click on **Forecasting** then on **Yearly Goal**.
 
 TODO: screenshot
 

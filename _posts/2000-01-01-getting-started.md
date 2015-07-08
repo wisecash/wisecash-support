@@ -19,15 +19,15 @@ Before feeding any data into WiseCash, take a moment to make an inventory of the
 * Upcoming payments from your revenue sources (consulting, products etc.).
 * Upcoming planned taxes schedule.
 * Your last bank receipts (especially useful to detect repeat transactions).
-* Our list of [commonly found repeat transactions in a business](../common-expenses-and-income/).
+* Our list of [commonly found repeat transactions in a business,Common Business Expenses & Income].
 
 ## Enter your planned expenses and income
 
-Using repeat transactions as often as possible (in order to reduce future updating work), enter your planned expenses and income using the entry form.
+Using [repeat transactions,Setting up a Recurring Transaction] as often as possible (in order to reduce future updating work), enter your planned expenses and income using the entry form.
 
 When in doubt, adopt a **conservative stance**: over-estimate expenses and under-estimate income.
 
-Use the auto-mark-as-paid feature to reduce future updating work on your forecast.
+Use the [auto-mark-as-paid,Marking Transactions as Paid] feature to reduce future updating work on your forecast.
 
 <div class='alert alert-info' role='alert'>
   <i class="fa fa-warning"></i> Focus on the large transactions first. You will get a 95%-accurate forecast in limited time this way. Also, there is not much need to back-fill your past data. Instead, focus on getting upcoming transactions right.
@@ -37,7 +37,7 @@ Use the auto-mark-as-paid feature to reduce future updating work on your forecas
 
 Once the forecast data is ready, you can:
 
-* Forecast your business bank-account balance (up to one year in advance).
-* Track your yearly income goal (including planned & paid income transactions).
-* Visualize a monthly-breakdown of profits, expenses and income.
-* Zoom into a specific account to verify upcoming transactions.
+* [Forecast your business bank-account balance, Balance Forecast & Runway Estimation] (up to one year in advance).
+* Track and forecast your [yearly income goal,Yearly Income Tracking] (including planned & paid income transactions).
+* Visualize a [monthly-breakdown] of profits, expenses and income.
+* Zoom into a [specific account,Account Overview] to verify upcoming transactions.
