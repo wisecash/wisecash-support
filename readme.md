@@ -4,7 +4,7 @@ Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
 
 ## Todos
 
-- [ ] Auto-update slugs based on titles.
+- [X] Auto-update slugs based on titles.
 - [ ] Work on cross-linking.
 - [ ] Add a footer with company information.
 - [ ] Add screenshots and animations.
@@ -18,3 +18,5 @@ Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
 - [ ] Style all mentions to buttons similarly.
 - [ ] Link to next and previous pages.
 - [ ] Mention concierge onboarding.
+- [ ] Verify SEO tags.
+- [ ] Handle baseurl inside autolinker.
