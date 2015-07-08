@@ -4,15 +4,15 @@ section: Operational Support
 index: 0
 ---
 
-WiseCash provides you with a short-term dashboard, helpful to review overdue transactions and what is going to happen in the 2 coming weeks.
+WiseCash provides you with a short-term dashboard, helpful to review overdue and 2-week upcoming transactions.
 
-This dashboard was made to help you offload cognitive burden from your brain and help you focus on whatever matters to you (outside finances).
+It helps you offload cognitive burden from your brain and focus on what matters to you (outside finances).
 
 To reach the dashboard, simply click on the dashboard icon:
 
 TODO: screenshot
 
-This screen is very useful to:
+This screen is useful to:
 
 * Make sure you have invoiced your clients.
 * Review which payments you should have received.
