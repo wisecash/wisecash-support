@@ -5,8 +5,8 @@ Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
 ## Todos
 
 - [X] Auto-update slugs based on titles.
-- [ ] Work on cross-linking.
-- [ ] Add a footer with company information.
+- [X] Work on cross-linking.
+- [X] Add a footer with company information.
 - [ ] Add screenshots and animations.
 - [ ] Add CTA for sign-up.
 - [ ] Link brand to home-page.
