@@ -1,6 +1,9 @@
 name: WiseCash Help
 permalink: /:title
 gems: ['jekyll-assets']
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
 defaults:
   -
     scope:
