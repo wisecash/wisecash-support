@@ -16,7 +16,7 @@ end
 # there are other solutions, but this is not intrusive and works nicely
 task :optimize do
   app = "/Applications/ImageOptim.app/Contents/MacOS/ImageOptim"
-  system! "#{app} _assets/images/*.png"
+  system! "#{app} _assets/images/*.*"
 end
 
 # I could not find how to automatically build the slug based on the title.
