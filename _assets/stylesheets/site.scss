@@ -95,8 +95,12 @@ h2 {
 $bulletSize: 10px;
 
 .content {
+  .screenshot {
+    margin-left: 1em;
+  }
   .screenshot img {
     border: 1px solid #bbb;
+    margin-bottom: 0.5em;
   }
   p, li {
     font-size: 18px;

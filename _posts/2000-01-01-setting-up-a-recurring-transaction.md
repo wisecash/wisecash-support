@@ -14,10 +14,18 @@ You can create repeat transactions from most pages in WiseCash, yet doing this f
 
 ## Enter Transaction Information And Create Transaction
 
-Define the type of transaction (expense / income), pick a start date, an account and a repeat period, then click on **Create**:
+In the transaction entry form, define the type of transaction (expense / income), pick a start date, an account and a repeat period, then click on **Create**:
 
-TODO: screenshot
+{% include animation.html file="data-entry.gif" %}
 
-You can later [modify the amount for one,Modifying One Occurrence of a Series] or [all upcoming transactions,Modifying All Upcoming Occurrences ], or [stop the series,Stopping a Recurring Series]. It's also possible to [simulate month-to-month growth, Simulating Month-to-Month Growth].
+You can later modify the repeat transaction in multiple ways:
 
-TODO: mention that changing date is not yet possible.
+* [Modifying One Occurrence of a Series]
+* [Modifying All Upcoming Occurrences ]
+* [Stopping a Recurring Series]
+
+It's also possible to [simulate month-to-month growth, Simulating Month-to-Month Growth].
+
+<div class='alert alert-info' role='alert'>
+  <i class="fa fa-warning"></i> Changing the due date on repeat transactions is not yet possible (but planned). For now the recommended work-around is to delete your series and recreate one.
+</div>
