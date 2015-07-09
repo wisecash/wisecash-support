@@ -10,9 +10,10 @@ Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
 
 ## Before first deploy
 
+- [X] Link to next and previous pages.
 - [ ] Add link to KB index.
 - [ ] Link brand to home-page.
-- [ ] Add screenshots and animations.
+- [/] Add screenshots and animations.
 - [ ] Verify SEO tags.
 - [ ] Handle baseurl inside autolinker.
 - [ ] Modify app help page to link to knowledge base.
@@ -20,7 +21,7 @@ Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
 
 ## Right after first deploy
 
-- [ ] Link to next and previous pages.
+- [ ] Un-CDN resources?
 - [ ] Add link to GitHub repository.
 - [ ] Add CTA for sign-up.
 - [ ] Fix title casing.
