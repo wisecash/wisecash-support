@@ -11,6 +11,14 @@ task :serve do
   system!("bundle exec jekyll serve --watch --drafts")
 end
 
+# reduce size of images using imageoptim
+# https://imageoptim.com/command-line.html
+# there are other solutions, but this is not intrusive and works nicely
+task :optimize do
+  app = "/Applications/ImageOptim.app/Contents/MacOS/ImageOptim"
+  system! "#{app} _assets/images/*.png"
+end
+
 # I could not find how to automatically build the slug based on the title.
 # Even using "slug" in the front-matter did not work. This works, though.
 task :auto_slug do
