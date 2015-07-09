@@ -94,6 +94,9 @@ h2 {
 $bulletSize: 10px;
 
 .content {
+  .screenshot img {
+    border: 1px solid #bbb;
+  }
   p, li {
     font-size: 18px;
     line-height: 18*1.2727px;
