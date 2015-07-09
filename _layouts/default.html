@@ -19,11 +19,7 @@
     <link rel="stylesheet" href="/css/site.css">
     {% include typekit.html %}
   </head>
-  {% if page.body_class %}
-  <body class="{{ page.body_class }}">
-  {% else %}
-  <body>
-  {% endif %}
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     {% include navbar.html %}
     <div class="main">
       <div class="container">
