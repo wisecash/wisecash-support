@@ -14,4 +14,4 @@ TODO: screenshot
 
 TODO: screenshot
 
-If you have enabled the tagging add-on, you can achieve Profit Center Tracking here.
+If you have enabled the [tagging add-on,Applying Tagging & Filtering], you can achieve Profit Center Tracking here.

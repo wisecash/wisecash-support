@@ -4,15 +4,15 @@ section: Working with Transactions
 index: 1
 ---
 
-When a recurring series is already in place, you can modify one entry, if needed. Here is how to do that:
+When a [recurring series, Setting up a Recurring Transaction] is already in place, you can modify one entry, if needed. Here is how to do that:
 
-## Go to the Account Overview page
+## Go to the [Account Overview] page
 
-While it can be done from other screens in WiseCash, editing the data from the Account Overview page makes it easier to verify what you are doing.
+While it can be done from other screens in WiseCash, editing the data from the [Account Overview] page makes it easier to verify what you are doing.
 
 ## Select the Transaction To Be Modified
 
-Click on the edit icon. The selected transaction should appear in blue and its data should be displayed in the entry form:
+Click on the **edit icon**. The selected transaction should appear in blue and its data should be displayed in the entry form:
 
 TODO: screenshot
 

@@ -13,4 +13,4 @@ WiseCash is targeted at business owners. You do not need to be an accountant to 
 
 Any question? Please [write us an email](mailto:support@wisecashhq.com) and we'll reply straight away.
 
-Read the [Get Started](/getting-started) section to learn how it can help you.
+Read the [Get Started,Getting Started] section to learn how it can help you.

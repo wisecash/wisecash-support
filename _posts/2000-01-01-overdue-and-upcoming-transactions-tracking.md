@@ -8,7 +8,7 @@ WiseCash provides you with a short-term dashboard, helpful to review overdue and
 
 It helps you offload cognitive burden from your brain and focus on what matters to you (outside finances).
 
-To reach the dashboard, simply click on the dashboard icon:
+To reach the dashboard, simply click on the **dashboard icon**:
 
 TODO: screenshot
 
