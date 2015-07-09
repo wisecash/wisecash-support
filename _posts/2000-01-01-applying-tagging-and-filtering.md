@@ -46,4 +46,4 @@ From there, you can filter all the charts with your new tag to analyze the sub-s
 
 Only the transactions tagged with a least one tag will be kept in the calculation:
 
-{% include animation.html file="9rB7SyVPpG-chart-filtering.gif" %}
+TODO: screenshot ex: include animation.html file="9rB7SyVPpG-chart-filtering.gif"
