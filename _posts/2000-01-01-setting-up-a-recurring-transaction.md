@@ -20,9 +20,9 @@ In the transaction entry form, define the type of transaction (expense / income)
 
 You can later modify the repeat transaction in multiple ways:
 
-* [Modifying One Occurrence of a Series]
-* [Modifying All Upcoming Occurrences ]
-* [Stopping a Recurring Series]
+* [Modifying One Occurrence of a Series].
+* [Modifying All Upcoming Occurrences ].
+* [Stopping a Recurring Series].
 
 It's also possible to [simulate month-to-month growth, Simulating Month-to-Month Growth].
 
