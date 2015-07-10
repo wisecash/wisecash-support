@@ -8,7 +8,7 @@ WiseCash helps you modelize repeat transactions (salaries, subscriptions, etc.) 
 
 ## Go to the Account Overview page
 
-You can create repeat transactions from most pages in WiseCash, yet doing this from the [Account Overview] page makes it easier to verify your data entry.
+You can create repeat transactions from most pages in WiseCash, yet doing this from the [Account Overview] page makes it easier to verify your data entry:
 
 {% include screenshot.html file="reaching-account-overview.png" %}
 

@@ -8,7 +8,9 @@ When a [recurring series, Setting up a Recurring Transaction] is already in plac
 
 ## Go to the Account Overview page
 
-While it can be done from other screens in WiseCash, editing the data from the [Account Overview] page makes it easier to verify what you are doing.
+While it can be done from other screens in WiseCash, editing the data from the [Account Overview] page makes it easier to verify what you are doing:
+
+{% include screenshot.html file="reaching-account-overview.png" %}
 
 ## Select the first occurrence to be modified
 
