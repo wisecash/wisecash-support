@@ -12,8 +12,8 @@ Once planned transactions have occurred for real and have been materialized on y
 
 To mark a transaction as paid, simply check its "mark as paid" checkbox:
 
-TODO: screenshot
+{% include animation.html file="mark-transaction-as-paid.gif" %}
 
-For transactions that are automatically paid on due date (such as subscriptions) and may not require a lot of attention from you (because the amounts are small enough), you can ask WiseCash to automatically mark transactions as paid on due date, by checking the "auto-pay on due date" checkbox here:
+If you have small auto-paid transactions such as subscriptions, you can save some clicks by using the "auto-mark as paid on due date" checkbox:
 
-TODO: screenshot
+{% include screenshot.html file="auto-mark-as-paid-on-due-date.png" %}
