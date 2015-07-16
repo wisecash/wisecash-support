@@ -7,10 +7,10 @@ index: 0
 Once you have up-to-date data in WiseCash, you can get:
 
 * A day-by-day bank account balance projection for the upcoming year.
-* Your estimated runway (**number of days your business can survive** given planned expenses and income).
+* Your estimated runway (**number of days your business can survive** given planned transactions).
 * Your crash date, day when your bank account will reach zero.
 
-TODO: screenshot
+{% include full-screenshot.html file="burn-chart-forecast.png" %}
 
 Here are the steps to get that projection for your business:
 
