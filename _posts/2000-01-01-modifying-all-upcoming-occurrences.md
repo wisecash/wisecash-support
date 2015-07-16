@@ -14,7 +14,7 @@ While it can be done from other screens in WiseCash, editing the data from the [
 
 ## Select the first occurrence to be modified
 
-In the transactions list, click the **edit** {% icon fa-pencil %} on the **first occurrence** that you want to modify:
+In the transactions list, click the **edit** {% icon fa-pencil %} icon on the **first occurrence** that you want to modify:
 
 {% include screenshot.html file="selecting-a-transaction.png" %}
 
