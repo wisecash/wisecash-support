@@ -4,7 +4,7 @@ section: Forecasting Your Cash-Flow
 index: 0
 ---
 
-Once you have up-to-date data in WiseCash, you can get:
+Once you have up-to-date data in WiseCash, you get:
 
 * A day-by-day bank account balance projection for the upcoming year.
 * Your estimated runway (**number of days your business can survive** given planned transactions).
@@ -14,9 +14,9 @@ Once you have up-to-date data in WiseCash, you can get:
 
 Here are the steps to get that projection for your business:
 
-## Understand how the projection works
+## Understand how the cash-flow forecast works
 
-The forecast starts from the bank account balance you provide. It then adds up the transactions not yet marked as paid, over time, and charts the estimated future bank account balance.
+The forecast starts from the bank account balance you provide. It then adds up the transactions not yet [marked as paid,Marking Transactions As Paid], over time, and charts the estimated future bank account balance.
 
 Represented as a table, this would look like this:
 
@@ -30,22 +30,24 @@ Represented as a table, this would look like this:
 
 ## Update your cash-flow forecasting data
 
-Given what's written above:
+To make sure your forecasting data is in sync with your bank account state:
 
 * Make sure to check your latest bank report in order to update your forecast data.
-* [Mark as paid,Marking Transactions as Paid] (into WiseCash) all transactions which occurred on your bank report, to avoid double-counting.
-
-This way your forecast will be in sync with your bank account state.
+* [Mark as paid,Marking Transactions as Paid] all transactions which occurred on your bank report, to avoid double-counting.
 
 ## Go to the burn-chart and provide your current bank account balance
 
-Click on the **forecast icon**, then click on **edit** to enter your bank account balance:
+Click on the **forecast** {% icon fa-signal %} icon, then click on **Set your bank account balance**:
 
-TODO: screenshot
+{% include animation.html file="set-bank-account-balance.gif" %}
+
+The chart will update in real-time as you type, giving you the opportunity to estimate crash dates with various bank account balances. This is useful to quickly simulate the impact of moving money from an account to another, or to take savings into account.
 
 ## Forecast your runway and bank account balance
 
-TODO: animation
+You can move the mouse to estimate your upcoming bank account balance:
+
+{% include screenshot.html file="balance-projection.png" %}
 
 This forecasting has many uses, including:
 
