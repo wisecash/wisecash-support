@@ -14,26 +14,32 @@ Here is how to configure and get results for your business:
 
 ## Define your start of fiscal year
 
-Go to your settings, and change the start of fiscal year.
+Go to your settings ({% icon fa-cog %} icon) then change the start of fiscal year:
 
-TODO: screenshot
+{% include screenshot.html file="settings-fiscal-year.png" %}
 
 <div class='alert alert-info' role='alert'>
-  <i class="fa fa-warning"></i> If you are just getting started with WiseCash, you can either set the start of fiscal year to "now", or create and mark as paid one big income transaction to simulate the income you've already made before starting to use WiseCash.
+  <i class="fa fa-warning"></i> If you are just getting started with WiseCash, you can either set the start of fiscal year to the current month, or create and mark as paid one big income transaction to simulate the income you've already made before starting to use WiseCash.
 </div>
 
 ## Go to the Yearly Goal chart
 
-Click on **Forecasting** then on **Yearly Goal**.
+Click on the **forecasting** {% icon fa-signal %} icon then on **Yearly Goal**:
 
-TODO: screenshot
+{% include screenshot.html file="go-to-yearly-goal.png" %}
 
 ## Define a yearly goal
 
-Click on **Edit goal** and enter your yearly goal. Make sure to include VAT if applicable.
+Click on **Edit goal** and enter your yearly goal.
 
-TODO: screenshot
+{% include animation.html file="edit-yearly-goal.gif" %}
+
+<div class='alert alert-info' role='alert'>
+  <i class="fa fa-warning"></i> Make sure to include VAT if applicable.
+</div>
 
 ## Visualize your income tracking and forecast
 
-TODO: screenshot
+You can mark as paid transactions just below the chart. This updates your progress bar and income tracking chart in real-time:
+
+{% include animation.html file="yearly-goal.gif" %}
