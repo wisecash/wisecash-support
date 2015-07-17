@@ -15,6 +15,7 @@ Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
 - [ ] Link brand to home-page.
 - [/] Add screenshots and animations.
 - [ ] Verify SEO tags.
+- [ ] Verify titles juice
 - [ ] Handle baseurl inside autolinker.
 - [ ] Modify app help page to link to knowledge base.
 - [ ] Deploy.

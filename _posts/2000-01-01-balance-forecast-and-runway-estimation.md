@@ -37,7 +37,7 @@ To make sure your forecasting data is in sync with your bank account state:
 
 ## Go to the burn-chart and provide your current bank account balance
 
-Click on the **forecast** {% icon fa-signal %} icon, then click on **Set your bank account balance**:
+Click on the **Forecasting** {% icon fa-signal %} icon, then click on **Set your bank account balance**:
 
 {% include animation.html file="set-bank-account-balance.gif" %}
 

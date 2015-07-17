@@ -24,7 +24,7 @@ Go to your settings ({% icon fa-cog %} icon) then change the start of fiscal yea
 
 ## Go to the Yearly Goal chart
 
-Click on the **forecasting** {% icon fa-signal %} icon then on **Yearly Goal**:
+Click on the **Forecasting** {% icon fa-signal %} icon then on **Yearly Goal**:
 
 {% include screenshot.html file="go-to-yearly-goal.png" %}
 
