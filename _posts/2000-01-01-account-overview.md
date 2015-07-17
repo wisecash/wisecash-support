@@ -12,17 +12,17 @@ This is a very useful screen to keep your cash-flow data updated, since it gives
 
 To do that you can either click on a given transaction account's name like this:
 
-TODO: screenshot
+{% include animation.html file="click-account.gif" %}
 
 Or you can click on the Account Overview icon:
 
-TODO: screenshot
+{% include screenshot.html file="reaching-account-overview.png" %}
 
-## Select a Given Account
+## Select an Account
 
 If the displayed account is not the one you want to investigate, use the account selector here:
 
-TODO: screenshot
+{% include animation.html file="select-account.gif" %}
 
 ## Visualize your Account Data
 
@@ -33,8 +33,8 @@ On the screen you will find:
 * A month-by-month breakdown of upcoming transactions.
 * A list of the upcoming transactions for the coming year.
 
-TODO: screenshot
+{% include screenshot.html file="account-overview.png" %}
 
 <div class='alert alert-info' role='alert'>
-  <i class="fa fa-warning"></i> You cannot yet see past transactions on this screen. To list them, go to the entries screen.
+  <i class="fa fa-warning"></i> You cannot yet see past transactions on this screen. Go to the entries list (icon {% icon fa-list %}) to see them.
 </div>
