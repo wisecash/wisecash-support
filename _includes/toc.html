@@ -6,7 +6,7 @@
       {% assign pages = (site.posts | where: 'section', section.name | sort: 'index') %}
       {% for p in pages %}
       <li>
-        <a {% if page.url == p.url %}class="active"{% endif %} href="{{ p.url }}">{{ p.title }}</a>
+        <a {% if page.url == p.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a>
       </li>
       {% endfor %}
     </ul>

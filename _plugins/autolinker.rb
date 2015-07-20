@@ -19,7 +19,7 @@ module Autolinker
       raise "No internal page match found for #{match}" unless target_post
       anchor_text = overriding_text || target_post.title
       Jekyll.logger.debug "Auto-linking to #{target_post.url}"
-      "<a href='#{target_post.url}'>#{anchor_text}</a>"
+      "<a href='#{site.baseurl}#{target_post.url}'>#{anchor_text}</a>"
     end
   end
 end

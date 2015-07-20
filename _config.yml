@@ -1,4 +1,5 @@
 name: WiseCash Help
+baseurl: /help
 permalink: /:title
 gems: ['jekyll-assets']
 assets:
