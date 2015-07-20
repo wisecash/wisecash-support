@@ -5,7 +5,7 @@ title: Welcome to the WiseCash Knowledge Base.
 
 [WiseCash](https://www.wisecashhq.com) is a lightweight cash-flow forecasting SaaS app. It helps you forecast your business bank account balance, without having to labor over a spreadsheet.
 
-TODO: burn-chart
+{% include full-screenshot.html file="burn-chart-forecast.png" %}
 
 Since it saves you work when doing your forecast, you end up forecasting more often. This helps you make better decisions, and ultimately helps your business thrive.
 
