@@ -1,5 +1,5 @@
 ---
-title: Simulating Month-to-Month Growth
+title: Simulating Month To Month Growth
 section: Advanced Use
 index: 1
 ---

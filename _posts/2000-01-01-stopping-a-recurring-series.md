@@ -1,5 +1,5 @@
 ---
-title: Stopping a Recurring Series
+title: Stopping A Recurring Series
 section: Working with Transactions
 index: 3
 ---

@@ -1,5 +1,5 @@
 ---
-title: Setting up a Recurring Transaction
+title: Setting Up A Recurring Transaction
 section: Working with Transactions
 index: 0
 ---

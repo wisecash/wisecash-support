@@ -1,5 +1,5 @@
 ---
-title: Marking Transactions as Paid
+title: Marking Transactions As Paid
 section: Working with Transactions
 index: 4
 ---

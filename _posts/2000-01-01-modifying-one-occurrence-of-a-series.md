@@ -1,5 +1,5 @@
 ---
-title: Modifying One Occurrence of a Series
+title: Modifying One Occurrence Of A Series
 section: Working with Transactions
 index: 1
 ---

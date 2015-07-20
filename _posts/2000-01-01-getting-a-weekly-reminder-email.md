@@ -1,5 +1,5 @@
 ---
-title: Getting a weekly reminder email
+title: Getting A Weekly Reminder Email
 section: Operational Support
 index: 1
 ---
