@@ -4,32 +4,32 @@ section: Advanced Use
 index: 1
 ---
 
-If one of your income sources has a growth pattern, you can forecast it using the month-to-month growth feature in WiseCash.
+If one of your income sources has a growth pattern, you can forecast it using the month-to-month (or more generally, term-to-term) growth feature in WiseCash:
 
-This feature is also useful to do break-even analysis on one of your product, especially when coupled with [tagging and filtering,Applying Tagging & Filtering ].
+{% include full-screenshot.html file="income-growth.png" %}
 
-To apply a monthly growth percentage, you must first create a [repeat transaction, Setting up a Recurring Transaction], then later update it to apply the growth simulation. Here is how to do this:
+This feature is also useful to do break-even analysis on one of your product, especially when coupled with [tagging and filtering,Applying Tagging & Filtering].
 
-## Create a repeat transaction
+To forecast growth, you must first create a [repeat transaction,Setting up a Recurring Transaction] then apply the following steps:
 
-Create a [repeat transaction, Setting up a Recurring Transaction] starting today, using the starting value for amount.
+## Edit your growth starting-point
 
-TODO: screenshot
+Go to the [Account Overview] then edit the occurrence from which you want to start projecting your growth:
 
-## Edit one occurrence
-
-Go to the [Account Overview] then edit the occurrence from which you want to start projecting your growth.
-
-TODO: screenshot
+{% include screenshot.html file="selecting-a-transaction.png" %}
 
 ## Fill the growth percent
 
-TODO: screenshot
+Provide a term-to-term percentage of growth to be applied:
 
-then click on **Save with future occurrences**.
+{% include animation.html file="percent-growth.gif" %}
 
 <div class='alert alert-info' role='alert'>
   <i class="fa fa-warning"></i> For technical reasons, the growth only applies to the 2 upcoming years. Afterwards the last amount is applied indefinitely.
 </div>
+
+Now click on **Save with future occurrences**. Your account preview will now show the growth pattern:
+
+{% include screenshot.html file="income-growth.png" %}
 
 If you need to review and update your growth later, you can pick a transaction in the series and apply the same manipulation from there.
