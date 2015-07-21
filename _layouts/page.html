@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<div class="clearfix">
+  <div class="github-edit pull-right">
+    {% include github-edit.html %}
+  </div>
+  <h1>{{ page.title }}</h1>
+</div>
 
 {{ content }}
 

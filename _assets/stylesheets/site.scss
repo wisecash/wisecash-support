@@ -235,3 +235,16 @@ footer {
   padding-top: 3em;
   border-top: 1px solid #eee;
 }
+
+.github-edit {
+  margin-top: 0.5em;
+  a {
+    opacity: 0.5;
+    font-size: 12px;
+    color: #888;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #222;
+  }
+}
