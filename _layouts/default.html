@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.excerpt || autolink || strip_html }}">
+    <link rel="canonical" href="{{ site.canonical_domain }}{{ site.baseurl }}{{ page.url }}">
 
     {% stylesheet bootstrap.min %}
 
