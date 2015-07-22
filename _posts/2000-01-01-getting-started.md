@@ -4,13 +4,15 @@ section: Overview
 index: 1
 ---
 
-WiseCash leverages the financial data you provide to forecast your business bank account balance and compute your runway. Here is a quick screencast showing you the basics:
+WiseCash leverages the financial data you provide to forecast your business bank account balance and compute your runway. If you don't have a WiseCash account already, you can [start a free 14-day trial](/users/sign_up).
+
+Here is a quick screencast showing you the basics:
 
 <div style="margin-top: 1em; margin-bottom: 1em; padding: 1em;">
 <iframe src="//fast.wistia.net/embed/iframe/zz6rn5n4v7?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="770" height="514"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
 </div>
 
-Now how to build your own forecast in practice? Start a <a href="/users/sign_up">free 14-day trial</a> and read on:
+Now how to build your own forecast in practice? Read on:
 
 ## Make an Inventory of your transactions
 
@@ -20,6 +22,8 @@ Before feeding any data into WiseCash, take a moment to make an inventory of the
 * Upcoming planned taxes schedule.
 * Your last bank receipts (especially useful to detect repeat transactions).
 * Our list of [commonly found repeat transactions in a business,Common Business Expenses & Income].
+
+You do not have to chase every little transaction to get an accurate forecast: instead, make sure to think about all medium-to-large upcoming transactions.
 
 ## Enter your planned expenses and income
 
