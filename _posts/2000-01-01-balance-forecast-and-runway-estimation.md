@@ -4,7 +4,7 @@ section: Forecasting Your Cash-Flow
 index: 0
 ---
 
-Once you have up-to-date data in WiseCash, you get:
+Once you have up-to-date data in WiseCash, you get these useful financial forecasts and metrics:
 
 * A day-by-day bank account balance projection for the upcoming year.
 * Your estimated runway (**number of days your business can survive** given planned transactions).

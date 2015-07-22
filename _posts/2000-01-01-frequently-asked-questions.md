@@ -6,6 +6,8 @@ auto_numbering: 0
 body_class: help
 ---
 
+If your question is not listed here, please [contact us](mailto:support@wisecashhq.com)!
+
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 

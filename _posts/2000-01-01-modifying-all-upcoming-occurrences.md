@@ -4,7 +4,7 @@ section: Working with Transactions
 index: 2
 ---
 
-When a [recurring series, Setting up a Recurring Transaction] is already in place, you can modify the amount and description for all the remaining occurrences of the series. Here is how to do that:
+When a [recurring transaction, Setting up a Recurring Transaction] is already in place, you can modify the amount and description for all the remaining occurrences of the series. Here is how to do that:
 
 ## Go to the Account Overview page
 

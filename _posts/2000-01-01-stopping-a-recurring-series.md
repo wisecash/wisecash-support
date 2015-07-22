@@ -4,7 +4,7 @@ section: Working with Transactions
 index: 3
 ---
 
-When a [recurring series, Setting up a Recurring Transaction] is in place, you may want to stop it.
+When a [recurring transaction, Setting up a Recurring Transaction] is in place, you may want to stop it.
 
 If this is only temporary, you can **set the amount to zero** and save all upcoming occurrences.
 
