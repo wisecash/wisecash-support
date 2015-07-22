@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 section: Overview
-index: 0
+index: 1
 ---
 
 WiseCash leverages the financial data you provide to forecast your business bank account balance and compute your runway. Here is a quick screencast showing you the basics:
