@@ -1,7 +1,9 @@
 name: WiseCash Help
 baseurl: /help
 permalink: /:title
-gems: ['jekyll-assets']
+gems: 
+  - jekyll-assets
+  - jekyll-last-modified-at
 exclude: [vendor,Gemfile,Gemfile.lock,Rakefile,readme.md]
 canonical_domain: https://www.wisecashhq.com
 assets:
