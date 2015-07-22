@@ -2,12 +2,12 @@
 
 {% assign next_page = page | next %}
 {% if next_page %}
-<p>Next: <a href="{{ site.baseurl }}{{ next_page.url }}">{{ next_page.title }}</a>.</p>
+<p>{% icon fa-arrow-circle-o-right %} <a href="{{ site.baseurl }}{{ next_page.url }}">{{ next_page.title }}</a></p>
 {% endif %}
 
 {% assign previous_page = page | previous %}
 {% if previous_page %}
-<p>Previous: <a href="{{ site.baseurl }}{{ previous_page.url }}">{{ previous_page.title }}</a>.</p>
+<p>{% icon fa-arrow-circle-o-left %} <a href="{{ site.baseurl }}{{ previous_page.url }}">{{ previous_page.title }}</a></p>
 {% endif %}
 
 </div>
