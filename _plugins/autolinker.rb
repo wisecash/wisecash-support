@@ -4,6 +4,7 @@
 # Note: wrap your content with {{ content | autolink }} to enable this.
 module Autolinker
   def autolink(input)
+    input ||= ''
     site = @context.registers[:site]
     # at this point we have no more markdown but only html
     input.gsub(/\[([^\]]+)\]/) do |match|
