@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
+    {% if page.meta_description %}
+    <meta name="description" content="{{ page.meta_description }}">
+    {% else %}
     <meta name="description" content="{{ page.excerpt || autolink || strip_html }}">
+    {% endif %}
     <link rel="canonical" href="{{ site.canonical_domain }}{{ site.baseurl }}{{ page.url }}">
 
     {% stylesheet bootstrap.min %}
