@@ -1,2 +1,4 @@
-<script src="//use.typekit.net/muv7vcu.js"></script>
+{% if site.typekit_id %}
+<script src="//use.typekit.net/{{ site.typekit_id }}.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
+{% endif %}
