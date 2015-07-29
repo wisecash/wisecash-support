@@ -1,27 +1,24 @@
-Work-in-progress documentation for [WiseCash](https://www.wisecashhq.com).
+This repository contains all that is needed to fully generate the [Knowledge Base](https://www.wisecashhq.com/help/what-is-wisecash) of my cash-flow forecasting SaaS app [WiseCash](https://www.wisecashhq.com).
 
-(c) LoGeek SARL 2015.
+## Using this as a template for your own Knowledge Base
 
-## Done
+You can freely reuse this repository as a starting point to create your own Knowledge Base. Just make sure to tweak the appearance enough that it doesn't look too similar, and do not reuse written content, images or animations. [Contact us](mailto:support@wisecashhq.com) in case of doubt. Credit/back-link is appreciated!
 
-- [X] Auto-update slugs based on titles.
-- [X] Work on cross-linking.
-- [X] Add a footer with company information.
-- [X] Link to next and previous pages.
-- [X] Add screenshots and animations.
-- [X] Un-CDN resources (done when doable)
-- [X] Fix title casing.
+## How to run locally
 
-## Before first deploy
+* Clone this repository to your machine.
+* Make sure to have Ruby installed (tested fine on Ruby 2.1.x).
+* Install required dependencies with `bundle install`
+* Run `jekyll serve`
+* Go to [http://localhost:4000/help/](http://localhost:4000/help/)
 
-- [ ] Add link to GitHub repository.
-- [ ] Add link to KB index.
-- [ ] Link brand to home-page.
-- [ ] Verify SEO tags.
-- [ ] Handle baseurl inside autolinker.
-- [ ] Modify app help page to link to knowledge base.
-- [ ] Deploy.
+## How to build in production
 
-## Right after first deploy
+This is mostly:
 
-- [ ] Add CTA for sign-up.
+```
+cd wisecash-support-clone
+bundle exec jekyll build --destination $target_folder -c _config.yml,_private_config.yml
+```
+
+Private config is used to avoid leaving it in the public repository. Nothing sensitive but I want to make sure nobody deploys it by mistake, in order to avoid affecting our own typekit quotas.
