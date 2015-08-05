@@ -15,7 +15,7 @@ If your question is not listed here, please [contact us](mailto:support@wisecash
 
 WiseCash is useful to service business owners (consultancies, agencies, startups, architects...) who want to stay on top of their finances, be able to forecast their cash-flow inside a tool that is easy to use and lightweight.
 
-If you want to make **data-baked decisions about your cash-flow rather than running blind**, then WiseCash is most likely a good fit for you!
+If you want to make **data-backed decisions about your cash-flow rather than running blind**, then WiseCash is most likely a good fit for you!
 
 Although it currently only supports single-user accounts, it can definitely be used to share financial predictions with your team or your accountant, so that everyone is on the same page.
 
