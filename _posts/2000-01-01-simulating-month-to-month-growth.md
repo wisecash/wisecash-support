@@ -8,7 +8,7 @@ If one of your income sources has a growth pattern, you can forecast it using th
 
 {% include full-screenshot.html file="income-growth.png" %}
 
-This feature is also useful to do break-even analysis on one of your product, especially when coupled with [tagging and filtering,Applying Tagging & Filtering].
+This feature is also useful to do break-even analysis on one of your products, especially when coupled with [tagging and filtering,Applying Tagging & Filtering].
 
 To forecast growth, you must first create a [repeat transaction,Setting up a Recurring Transaction] then apply the following steps:
 
