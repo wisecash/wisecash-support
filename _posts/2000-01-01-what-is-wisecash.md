@@ -6,7 +6,7 @@ index: 0
 
 [WiseCash](https://www.wisecashhq.com) is a lightweight cash-flow forecasting SaaS app. It helps you forecast your business bank account balance and always know your runway, without having to labor over a spreadsheet.
 
-You enter data about your [transactions,Setting Up a Recurring Transaction] and in turn, you get actionable charts such as [this one,Balance Forecast & Runway Estimation]:
+Using recurrence rules, you enter [planned upcoming transactions,Setting Up a Recurring Transaction] and in turn, you get actionable charts such as the [Balance Forecast & Runway Estimation,Balance Forecast & Runway Estimation]:
 
 {% include full-screenshot.html file="burn-chart-forecast.png" %}
 
