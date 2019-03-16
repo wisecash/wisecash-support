@@ -9,7 +9,7 @@
     {% if page.meta_description %}
     <meta name="description" content="{{ page.meta_description }}">
     {% else %}
-    <meta name="description" content="{{ page.excerpt || autolink || strip_html }}">
+    <meta name="description" content="{{ page.excerpt | autolink | strip_html }}">
     {% endif %}
     <link rel="canonical" href="{{ site.canonical_domain }}{{ site.baseurl }}{{ page.url }}">
 
@@ -34,7 +34,7 @@
           </div>
           <div class="col-sm-9 content-wrapper">
             <div class="content">
-              {{ content || autolink }}
+              {{ content | autolink }}
             </div>
           </div>
         </div>
