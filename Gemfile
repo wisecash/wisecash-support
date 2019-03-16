@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 gem 'json'
-gem 'jekyll-assets'
+gem 'jekyll-assets', '~> 3.0.12'
 gem 'sass'
 gem 'font-awesome-sass'
 gem 'uglifier'
