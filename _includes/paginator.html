@@ -1,5 +1,5 @@
-{% assign next_page = page | next %}
-{% assign previous_page = page | previous %}
+{% assign next_page = page.next %}
+{% assign previous_page = page.previous %}
 
 {% if next_page or previous_page %}
 <div class="paginator">
