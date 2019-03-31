@@ -1,0 +1,247 @@
+$navbarBackground: #0088cc;
+$sepColor: #f5f5f5;
+
+body {
+  font-family: "franklin-gothic-urw", sans-serif;
+  background-color: #f3f3f3;
+}
+
+.content-wrapper {
+  background-color: #fff;
+  padding: 3em 3em;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.main {
+  padding: 30px 50px;
+  margin-top: 1.5em;
+}
+
+@media (max-width: 767px) {
+  .main {
+    padding: 10px 25px;
+    margin-top: 0.5em;
+  }
+  body {
+    background-color: #fff;
+  }
+  .toc-wrapper {
+    padding-left: 0;
+  }
+  .content-wrapper {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+}
+
+.animation img {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  border-radius: 4px;
+}
+
+.toc {
+  list-style-type: none;
+  .section {
+    width: 100%;
+    border-bottom: 1px solid $sepColor;
+    margin-top: 0.9em;
+  }
+}
+
+.toc.sections .pages li:hover a {
+  color: #000;
+}
+
+.toc.sections .pages li a {
+  padding-top: 0.25em;
+  padding-left: 0.3em;
+}
+
+.toc.sections {
+  padding-left: 0;
+  padding-bottom: 0;
+  .section {
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 13px;
+    line-height: 18px;
+    padding-bottom: 0em;
+    display: inline-block;
+  }
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: #444;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0.75em;
+  font-size: 32px;
+}
+
+h2 {
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-size: 22px;
+}
+
+$bulletSize: 10px;
+
+.content {
+  .screenshot {
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+  .screenshot img {
+    border: 1px solid #bbb;
+    margin-bottom: 0.5em;
+  }
+  p, li {
+    font-size: 18px;
+    line-height: 18*1.2727px;
+    font-weight: 100;
+    color: #555;
+  }
+  counter-reset: h2;
+  h2 {
+    margin: 1em 0em 1em -0.5em;
+    padding: 0;
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h2:before {
+    background: $navbarBackground;
+    content: counter(h2);
+    counter-increment: h2;
+    color: #fff;
+    font-size: $bulletSize * 1.5;
+    font-weight: bold;
+    width: $bulletSize * 2;
+    line-height: $bulletSize * 2;
+    border-radius: $bulletSize;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0.5em;
+    vertical-align: bottom;
+  }
+}
+
+.toc.pages {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+  li {
+    line-height: 15px;
+  }
+  a {
+    display: block;
+    margin: 0.25em 0em;
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  .active {
+    color: #000;
+    font-weight: bold;
+  }
+}
+
+.wrapper {
+  background-color: #0088cc;
+  .our-row-mini {
+    height: 36px;
+  }
+}
+
+.footer-wrapper {
+  background-color: #ddd;
+  margin-top: 4em;
+}
+
+footer {
+  padding: 2em;
+  text-align: center;
+  p {
+    margin-bottom: 0;
+  }
+  div {
+    margin-top: 1em;
+    padding-bottom: 2em;
+  }
+  p, a {
+    color: #777;
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+.our-header {
+  p, li {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 100;
+  }
+}
+.navbar {
+  margin-bottom: 0;
+  min-height: 16px;
+  a {
+    text-transform: uppercase;
+  }
+  .our-brand {
+    font-weight: 400;
+  }
+  .muted {
+    padding-left: 0px;
+    opacity: 0.4;
+    text-transform: uppercase;
+  }
+  a, span {
+    color: white;
+    font-size: 14px;
+  }
+  li {
+    display: inline-block;
+    padding-left: 20px;
+  }
+}
+
+.help {
+  h2 {
+    padding-top: 0.15em;
+    padding-bottom: 0.20em;
+    padding-left: 0.3em;
+    border-radius: 6px;
+  }
+  :target {
+     background-color: transparentize($navbarBackground, 0.85);
+  }
+}
+
+.paginator {
+  margin-top: 4em;
+  padding-top: 3em;
+  border-top: 1px solid #eee;
+}
+
+.github-edit {
+  margin-top: 0.5em;
+  a {
+    opacity: 0.5;
+    font-size: 12px;
+    color: #888;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #222;
+  }
+}

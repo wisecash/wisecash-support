@@ -1,4 +1,5 @@
 _site
 .sass-cache
 .jekyll-assets-cache
+.jekyll-cache
 _private_config.yml

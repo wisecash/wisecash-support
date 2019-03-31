@@ -1,5 +1,5 @@
 <div class="screenshot">
   <span style="display: inline-block;">
-    {{ include.file | append: ' class="img-responsive" style="width: 75%"' | image }}
+    {% asset '{{ include.file }}' class='img-responsive' style="width: 75%" %}
   </span>
 </div>

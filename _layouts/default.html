@@ -9,19 +9,20 @@
     {% if page.meta_description %}
     <meta name="description" content="{{ page.meta_description }}">
     {% else %}
-    <meta name="description" content="{{ page.excerpt || autolink || strip_html }}">
+    <meta name="description" content="{{ page.excerpt | autolink | strip_html }}">
     {% endif %}
     <link rel="canonical" href="{{ site.canonical_domain }}{{ site.baseurl }}{{ page.url }}">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    {% stylesheet bootstrap.min %}
+    {% asset bootstrap.min.css %}
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      {% javascript html5shiv %}
-      {% javascript respond.min %}
+      {% asset html5shiv %}
+      {% asset respond.min %}
     <![endif]-->
 
-    {% stylesheet site %}
+    {% asset site %}
     {% include typekit.html %}
   </head>
   <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
@@ -34,7 +35,7 @@
           </div>
           <div class="col-sm-9 content-wrapper">
             <div class="content">
-              {{ content || autolink }}
+              {{ content | autolink }}
             </div>
           </div>
         </div>

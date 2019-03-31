@@ -27,7 +27,7 @@ private
     site = @context.registers[:site]
     # TODO: DRY this logic with what is in toc.html
     site.data['sections'].map do |section|
-      site.posts.find_all do |post|
+      site.posts.docs.each do |post|
         post.data['section'] == section['name']
       end.sort_by { |post| post.data['index'] }
     end.flatten

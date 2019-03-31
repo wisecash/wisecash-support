@@ -1,7 +1,7 @@
 name: WiseCash Help
 baseurl: /help
 permalink: /:title
-gems: 
+plugins:
   - jekyll-assets
   - jekyll-last-modified-at
 exclude: [vendor,Gemfile,Gemfile.lock,Rakefile,readme.md]
