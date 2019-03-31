@@ -9,7 +9,7 @@ WiseCash leverages the financial data you provide to forecast your business bank
 Here is a quick screencast showing you the basics:
 
 <div style="margin-top: 1em; margin-bottom: 1em; padding: 1em;">
-<video style="width: 100%; height: 100%;" controls>
+<video style="width: 100%; height: 100%;" controls poster="{{ site.baseurl }}/assets/intro-screencast.jpg">
   <source src="{{ site.baseurl }}/assets/intro-screencast.360p.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
