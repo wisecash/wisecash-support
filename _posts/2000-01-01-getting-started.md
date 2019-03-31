@@ -9,7 +9,10 @@ WiseCash leverages the financial data you provide to forecast your business bank
 Here is a quick screencast showing you the basics:
 
 <div style="margin-top: 1em; margin-bottom: 1em; padding: 1em;">
-<iframe src="//fast.wistia.net/embed/iframe/zz6rn5n4v7?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="770" height="514"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
+<video style="width: 100%; height: 100%;" controls>
+  <source src="{{ site.baseurl }}/assets/intro-screencast.360p.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 </div>
 
 Now how to build your own forecast in practice? Read on:
