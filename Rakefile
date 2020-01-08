@@ -11,6 +11,10 @@ task :serve do
   system!("bundle exec jekyll serve --watch --drafts")
 end
 
+task :dev_watch do
+  system!('bundle exec jekyll build --watch -d ../wisecash/public/help')
+end
+
 # reduce size of images using imageoptim
 # https://imageoptim.com/command-line.html
 # there are other solutions, but this is not intrusive and works nicely
