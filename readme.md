@@ -23,4 +23,4 @@ cd wisecash-support-clone
 bundle exec jekyll build --destination $target_folder -c _config.yml,_private_config.yml
 ```
 
-Private config is used to avoid leaving it in the public repository. Nothing sensitive but I want to make sure nobody deploys it by mistake, in order to avoid affecting our own typekit quotas.
+Private config is used to avoid leaving it in the public repository. It is empty at the moment (but used to contain typekit id, back when it was used).
